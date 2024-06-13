@@ -1,0 +1,61 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+}
+
+.form-text {
+    background-color: #badc57;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.form-text button {
+    width: 100%;
+    border-radius: 5px;
+    height: 35px;
+    border: none;
+    margin-top: 10px;
+    background-color: #6AB04A;
+    color: white;
+    font-weight: 600;
+}
+
+.form-text button:hover {
+    background-color: #019031;
+}
+
+.form-text-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-text-input label {
+    margin-bottom: 10px;
+}
+
+.form-text-input textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-text-input select {
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form-map {
+    width: 80%;
+}
+
+.form-map label {
+    display: none;
+}
